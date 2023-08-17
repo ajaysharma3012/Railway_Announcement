@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="/eel.js"></script>
+    <title>Railway Announcement Sysytem</title>
+  </head>
+  <body>
+    <div class="heading">
+      <img src="logo.png" id="imglogo"> <span id="title">Railway Announcement System </span>
+    </div>
+    <div class="container">
+      <div class="row">
+        <select id="selectactivity" class="smallarea" onchange="onactivityselect()">
+        <option value="Select Activity" >Select Activity</option>
+        <option value="1">On Time</option>
+        <option value="2">Delay</option>
+       </select>
+
+        <select id="ddllatehour" class="smallarea"></select>
+        <select id="ddllateminute" class="smallarea"></select>
+
+                <input
+          type="text"
+          id="txttrainnumber"
+          placeholder="Enter Train Number"
+        />
+      </div>
+      <div class="row">
+        <input type="text" id="txtsource" placeholder="Enter Source" />
+        <input type="text" id="txtdestination" placeholder="Enter Destination"/>
+      </div>
+      <div class="row">
+        <input type="text" id="txtviacoming" placeholder="Coming Via" />
+        <input type="text" id="txtviagoing" placeholder="Going Via" />
+      </div>
+      <div class="row">
+        <input type="text" id="txttrainname" placeholder="Train Name" />
+      </div>
+      <div class="row">
+        <select id="ddlhour" class="smallarea"></select>
+        <select id="ddlminute" class="smallarea"></select>
+        <input type="text" id="txtplatform" placeholder="Platform Number" class="smallarea" />
+      </div>
+      <div class="row">
+        <input type="button" value="Play Audio" onclick="playtrainannouncement()"/>
+        <input type="button" value="Download" />
+      </div>
+    </div>
+    <script type="text/javascript" src="/main.js"></script>
+  </body>
+</html>

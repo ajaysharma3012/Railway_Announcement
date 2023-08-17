@@ -1,0 +1,76 @@
+.container {
+    border-radius: 5px;
+    background-color: #2d3c48;
+    padding: 20px;
+    margin-top: 125px; position: absolute;
+    width: 92%;
+    }
+    
+    .row {
+    width: 100%;
+    padding: 5px 5px;
+    margin: 2px 0;
+    display: inline-block;
+    }
+    
+    input[type=text], select {
+    width: 48%;
+    display: inline-block;
+    border: 1px solid #ccc; 
+    border-radius: 5px; box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    margin: 0px 5px;
+    }
+
+    input[type=button] {
+        width: 30%;
+        background-color: #ff3434ed;
+        color: white;
+        padding: 9px 5px; margin: 9px 48px;
+        border: none;
+        font-family: Normal; border-radius: 25px;
+        font-size: 23px;
+        
+        }
+        
+        input[type=button]:hover {
+         background-color: #45a849;
+    }
+
+    .smallarea
+    {
+        width: 23% !important;
+        
+    }
+    #txttrainnumber{
+        width: 23%;
+    }
+
+    #txttrainname{
+        width: 98%;
+    }
+    #txtplatformnumber{
+        width: 40%;
+    }
+
+
+    #imglogo{
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        margin-left: 50px;
+    }
+
+    #title{
+     position: absolute;
+     font-size: 35px;
+     margin-left: 175px;
+     margin-top: 30px;
+     color: white;
+    }
+
+    body{
+        background-image: linear-gradient(to right, rgba(16, 255, 207, 0.41), rgba(35, 175, 222, 0.659));
+    }
+
